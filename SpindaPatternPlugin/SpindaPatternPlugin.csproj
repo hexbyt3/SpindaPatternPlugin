@@ -26,7 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="25.9.25" />
+    <Reference Include="PKHeX.Core">
+      <HintPath>Deps\PKHeX.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
